@@ -1,4 +1,4 @@
-
+OPEN "https://github.com/Chapstick53/phone-sms-api/blob/main/smsAPI_CLI.mp4" to the working of CLI tool
 
 -+++++++++++++++++++++++++++++++++
 # Phone SMS API - Quick Setup Guide
