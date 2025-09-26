@@ -1,0 +1,15 @@
+[
+    {
+        "domain": ".sms24.me",
+        "expirationDate": 1792907057.279,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_awl",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "2.1758779058.5-7c21863f95fd60dade36c8faac3b5601-6763652d617369612d6561737431-0"
+    }
+]

@@ -1,0 +1,51 @@
+{
+    "info": {
+      "name": "Phone SMS API",
+      "_postman_id": "f5c1e56e-8d6b-47a5-a58f-xyz123456789",
+      "description": "Collection to test Phone SMS API endpoints",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Health Check",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": { "raw": "http://localhost:4000/api/health", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["api", "health"] }
+        }
+      },
+      {
+        "name": "Get Numbers",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": { "raw": "http://localhost:4000/api/numbers", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["api", "numbers"] }
+        }
+      },
+      {
+        "name": "Get Messages (Example)",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": { "raw": "http://localhost:4000/api/numbers/12746497285/messages", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["api", "numbers", "12746497285", "messages"] }
+        }
+      },
+      {
+        "name": "Get OTP (Example)",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": { "raw": "http://localhost:4000/api/numbers/12746497285/otp", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["api", "numbers", "12746497285", "otp"] }
+        }
+      },
+      {
+        "name": "API Status",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": { "raw": "http://localhost:4000/api/status", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["api", "status"] }
+        }
+      }
+    ]
+  }
+  
