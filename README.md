@@ -3,7 +3,7 @@ OPEN "https://github.com/Chapstick53/phone-sms-api/blob/main/smsAPI_CLI.mp4" to 
 -+++++++++++++++++++++++++++++++++
 # Phone SMS API - Quick Setup Guide
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js 18+ installed
@@ -32,7 +32,7 @@ npm start
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint                           | Description                 |
 |--------|------------------------------------|-----------------------------|
@@ -45,7 +45,7 @@ npm start
 
 ---
 
-## 🛠️ Quick Usage Examples
+##  Quick Usage Examples
 
 ### Command Line (CLI)
 ```bash
@@ -91,7 +91,7 @@ const otp = await fetch('http://localhost:4000/api/numbers/12746497285/otp');
 
 ---
 
-## ⚙️ Environment Configuration
+##  Environment Configuration
 
 Optional environment variables:
 ```bash
@@ -101,7 +101,7 @@ export SMS_API=http://your-api-url  # Custom API base URL
 
 ---
 
-## 📋 Testing Scripts
+##  Testing Scripts
 ```bash
 # Test number scraping
 npm run scrape:numbers
@@ -112,7 +112,7 @@ npm run scrape:messages
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Port already in use
 ```bash
@@ -152,7 +152,7 @@ phone-sms-api/
 
 ---
 
-## 🎯 Quick Start Checklist
+##  Quick Start Checklist
 - Node.js 18+ installed  
 - npm install completed  
 - API running on port 4000  
@@ -161,14 +161,14 @@ phone-sms-api/
 
 ---
 
-## ⚡ Performance Notes
+##  Performance Notes
 - Cache: Numbers cached for 30 seconds  
 - Rate Limit: 25 requests/10 seconds per IP  
 - Auto-retry: Built-in error handling for failed requests  
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 - CORS enabled  
 - Rate limiting  
 - Input validation  
